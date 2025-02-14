@@ -1,0 +1,42 @@
+h1 {
+    font-family: arial;
+    text-align: center;
+}
+.header {
+    padding: 12px;
+    border: 1px solid;
+}
+p {
+    text-align: center;
+    font-family: arial;
+}
+.btns-move {
+    padding: 7px;
+}
+.btns {
+    text-align: center;
+}
+.btn {
+    height: 30px;
+    width: 90hpx;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 12px;
+}
+.btn:hover {
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(243, 243, 243);
+}
+.othersites {
+    padding: 50px;
+    border: 1px solid;
+}
+.gameButtons {
+    padding: 50px;
+    border: 1px solid;
+}
+.appButtons {
+    padding: 50px;
+    border: 1px solid;
+}

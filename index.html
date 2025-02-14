@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Deion's Sites</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="header">
+            <h1>Welcome to Deion<span onclick="openSecret()">'</span>s Sites V5</h1>
+            <p>It took me a trillion years to figure this out.</p>
+        </div>
+        <div class="btns-move">
+            <div class="btns">
+                <input id="gameButtons" class='btn' type="button" value="Games">
+                <input id="appButtons" class="btn" type="button" value="Apps">
+                <input id="otherSites" class="btn" type="button" onclick='openOthers()' value="Other Sites">
+            </div>
+        </div>
+        <div class="othersites" id="othersites" style="display: none;">
+            <h1>Other Sites</h1>
+            <div style="text-align: center;">
+                <input class="btn" onclick="window.open('https://freaky.madgames.store')" type="button" value="Freaky Sites">
+                <input class="btn" onclick="window.open('https://mg.mathhelpflashcards.shop')" type="button" value="MAD Games">
+                <input class="btn" onclick="window.open('https://g.mathhelpflashcards.shop')" type="button" value="Skibidi Sites">
+                <input class="btn" onclick="window.open('https://sites.google.com/waseca.k12.mn.us/wasecasites')" type="button" value="Waseca Sites">
+            </div>
+        </div>
+        <div class="gameButtons" id="gameButtons" style="display: none;">
+            <h1>Games</h1>
+            <div style="text-align: center;">
+                <input class="btn" onclick="window.location.href='games/paper-io'" type="button" value="Paper.io">
+            </div>
+        </div>
+        <div class="appButtons" id="appButtons" style="display: none;">
+            <h1>Apps</h1>
+            <div style="text-align: center;">
+                <input class="btn" onclick="window.location.href=''" type="button" value="N/A">
+            </div>
+        </div>
+    </body>
+    <script src="script.js"></script>
+</html>
