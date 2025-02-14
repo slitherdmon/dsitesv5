@@ -33,3 +33,11 @@ document.getElementById('appButtons').addEventListener('click', function() {
         div.style.display = 'none';
     }
 })
+document.getElementById('movieButtons').addEventListener('click', function() {
+    const div = document.querySelector('.movieButtons');
+    if (div.style.display === 'none') {
+        div.style.display = 'block';
+    } else {
+        div.style.display = 'none';
+    }
+})
