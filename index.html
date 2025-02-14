@@ -13,7 +13,9 @@
             <div class="btns">
                 <input id="gameButtons" class='btn' type="button" value="Games">
                 <input id="appButtons" class="btn" type="button" value="Apps">
-                <input id="otherSites" class="btn" type="button" onclick='openOthers()' value="Other Sites">
+                <input id="movieButtons" class="btn" type="button" value="Movies">
+                <input id="otherSites" class="btn" type="button" value="Other Sites">
+
             </div>
         </div>
         <div class="othersites" id="othersites" style="display: none;">
@@ -28,13 +30,19 @@
         <div class="gameButtons" id="gameButtons" style="display: none;">
             <h1>Games</h1>
             <div style="text-align: center;">
-                <input class="btn" onclick="window.location.href='games/paper-io'" type="button" value="Paper.io">
+                <input class="btn" onclick="window.location.href='/games/paper-io'" type="button" value="Paper.io">
             </div>
         </div>
         <div class="appButtons" id="appButtons" style="display: none;">
             <h1>Apps</h1>
             <div style="text-align: center;">
                 <input class="btn" onclick="window.location.href=''" type="button" value="N/A">
+            </div>
+        </div>
+        <div class="movieButtons" id="movieButtons" style="display: none;">
+            <h1>Movies</h1>
+            <div style="text-align: center;">
+                <input class="btn" onclick="window.location.href='/movies/hydrahd'" type="button" value="N/A">
             </div>
         </div>
     </body>
