@@ -6,7 +6,7 @@
     </head>
     <body>
         <div class="header">
-            <h1>Welcome to Deion<span onclick="openSecret()">'</span>s Sites V5</h1>
+            <h1>Welcome to Deion<span onclick="window.location.href='youtube.html'">'</span>s Sites V5</h1>
             <p>It took me a trillion years to figure this out.</p>
         </div>
         <div class="btns-move">
@@ -30,19 +30,22 @@
         <div class="gameButtons" id="gameButtons" style="display: none;">
             <h1>Games</h1>
             <div style="text-align: center;">
+                <input class="btn" onclick="window.location.href='/games/2048'" type="button" value="2048">
+                <input class="btn" onclick="window.location.href='/games/minecraft'" type="button" value="Minecraft">
                 <input class="btn" onclick="window.location.href='/games/paper-io'" type="button" value="Paper.io">
             </div>
         </div>
         <div class="appButtons" id="appButtons" style="display: none;">
             <h1>Apps</h1>
             <div style="text-align: center;">
-                <input class="btn" onclick="window.location.href=''" type="button" value="N/A">
+                <input class="btn" onclick="window.location.href='/apps/discord'" type="button" value="Discord">
             </div>
         </div>
         <div class="movieButtons" id="movieButtons" style="display: none;">
             <h1>Movies</h1>
             <div style="text-align: center;">
-                <input class="btn" onclick="window.location.href='/movies/hydrahd'" type="button" value="HydraHD">
+                <input class="btn" onclick="window.location.href='/movies/netflix'" type="button" value="Netflix">
+                <input class="btn" onclick="window.location.href='/movies/rgshows'" type="button" value="RgShows">
             </div>
         </div>
     </body>
