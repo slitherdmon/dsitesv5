@@ -19,14 +19,14 @@ p {
 .btn {
     height: 30px;
     width: 90hpx;
-    background-color: white;
+    background-color: rgba(213, 197, 197, 0);
     border: 1px solid;
-    border-radius: 12px;
+    border-radius: 5px;
 }
 .btn:hover {
-    border-radius: 10px;
+    border-radius: 2px;
     cursor: pointer;
-    background-color: rgb(243, 243, 243);
+    background-color: rgba(243, 243, 243, 0);
 }
 .othersites {
     padding: 50px;
