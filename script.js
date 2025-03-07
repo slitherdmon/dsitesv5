@@ -66,3 +66,14 @@ function fullScreen() {
         }
     }
 }
+function cloakPage() {
+    var win = window.open()
+    win.document.body.style.margin='0';
+    var url = '/'
+    var iframe = document.createElement('iframe')
+    iframe.style.height = '100%';
+    iframe.style.width = '100%';
+    iframe.style.border = 'none';
+    iframe.src = url 
+    win.document.body.appendChild(iframe)
+}
