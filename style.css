@@ -64,3 +64,10 @@ body {
     background: radial-gradient(circle, rgba(0, 255, 255, 0.5), rgba(0, 0, 0, 0.5));
     color: black;
 }
+div {
+    text-align: center;
+}
+div embed {
+    width: 750px;
+    height: 500px;
+}
