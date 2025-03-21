@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>WorldGuessr</title>
+        <link rel="stylesheet" href="../style.css">
+        <link rel="icon" type="image/x-icon" href="../favicon.png">
+    </head>
+    <body>
+        <div style="text-align: center;">
+            <button class="btn" onclick="fullScreen()">Fullscreen</button>
+        </div>
+        <div>
+            <embed id="embedgame" width="100%" height="625" border="1px black" src="https://www.worldguessr.com/">
+        </div>
+        <div>
+            <button class="btn" onclick="window.location.href='../'">Home</button>
+        </div>
+    </body>
+    <style>
+        div {
+            padding: 2px;
+        }
+    </style>
+    <script src="../script.js"></script>
+</html>
