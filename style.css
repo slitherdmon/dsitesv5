@@ -26,7 +26,11 @@ p {
 .btn:hover {
     border-radius: 2px;
     cursor: pointer;
-    background-color: rgba(243, 243, 243, 0);
+    background-color: rgba(135, 135, 135, 0.096);
+}
+.btn:active {
+    background-color: rgba(87, 87, 87, 0.127);
+    border-radius: 2px;
 }
 .othersites {
     padding: 50px;
