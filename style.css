@@ -22,6 +22,7 @@ p {
     background-color: rgba(213, 197, 197, 0);
     border: 1px solid;
     border-radius: 5px;
+    color: white;
 }
 .btn:hover {
     border-radius: 2px;
@@ -66,7 +67,7 @@ a {
     font-family: arial;
 }
 body {
-    background: radial-gradient(circle, rgba(0, 255, 255, 0.5), rgba(0, 0, 0, 0.5));
+    background: radial-gradient(circle, rgba(255, 128, 0, 0.7), rgba(0, 0, 0, 1));
     color: black;
 }
 div {
@@ -76,7 +77,8 @@ div embed {
     width: 875px;
     height: 550px;
 }
-.banner {
+.banner p {
     border: solid 1px;
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(0, 0, 0);
+    color: orange;
 }
