@@ -77,8 +77,11 @@ div embed {
     width: 875px;
     height: 550px;
 }
-.banner p {
+.banner {
     border: solid 1px;
     background-color: rgb(0, 0, 0);
+    border-color: orange;
+}
+.banner p {
     color: orange;
 }
