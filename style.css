@@ -69,6 +69,7 @@ a {
 body {
     background: radial-gradient(circle, rgb(255, 135, 14), rgba(0, 0, 0, 1));
     color: black;
+    margin: 0;
 }
 div {
     text-align: center;
@@ -78,10 +79,13 @@ div embed {
     height: 550px;
 }
 .banner {
-    border: solid 1px;
-    background-color: rgb(0, 0, 0);
+    border: none;
+    background-color: rgb(255, 0, 0);
     border-color: orange;
 }
 .banner p {
-    color: orange;
+    color: rgb(0, 0, 0);
+}
+.deionssearch {
+    color: rgb(0, 0, 0);
 }
