@@ -1,4 +1,4 @@
-importScripts("/active/uv/uv.sw.js");
+importScripts("/apps/deionssearch/active/uv/uv.sw.js");
 
 const sw = new UVServiceWorker();
 
