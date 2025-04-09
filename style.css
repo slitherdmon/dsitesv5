@@ -89,3 +89,7 @@ div embed {
 .deionssearch {
     color: rgb(0, 0, 0);
 }
+div iframe {
+    width: 875px;
+    height: 550px;
+}
