@@ -1,5 +1,5 @@
 self.__uv$config = {
-    prefix: '/apps/deionssearch/active/deionwashere/',
+    prefix: '/apps/tikt0k/active/deionwashere/',
     bare:'https://32867gd198764dg23vd23198746v4d69182736dvussis7.9882136.xyz/',
     encodeUrl: Ultraviolet.codec.xor.encode,
     decodeUrl: Ultraviolet.codec.xor.decode,
