@@ -1,4 +1,4 @@
-importScripts("/apps/tiktok/uv/uv.sw.js");
+importScripts("/apps/tikt0k/uv/uv.sw.js");
 
 const sw = new UVServiceWorker();
 
