@@ -1,104 +1,86 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Deion's Sites</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="icon" type="image/x-icon" href="favicon.png">
-    </head>
-    <body>
-        <div class="banner">
-            <p>Deion's Search is OUT click <a class="deionssearch" href="https://search.deions.org/active/">here</a> to go there</p>
-        </div>
-        <div class="header">
-            <h1>Welcome to Deion's Sites V5</h1>
-            <p>It took me a tril<span onclick="window.location.href='/i/love/lillie'">l</span>ion years to figure this out</p>
-        </div>
-        <div class="btns-move">
-            <div class="btns">
-                <input id="gameButtons" class='btn' type="button" value="Games">
-                <input id="appButtons" class="btn" type="button" value="Apps">
-                <input id="movieButtons" class="btn" type="button" value="Movies">
-                <input id="otherSites" class="btn" type="button" value="Others">
-                <button class="btn" onclick="cloakPage()">Cloak</button>
-            </div>
-        </div>
-        <div class="othersites" id="othersites" style="display: none;">
-            <h1>Other Sites</h1>
-            <div style="text-align: center;">
-                <input class="btn" onclick="window.open('https://freaky.madgames.store')" type="button" value="Freaky Sites">
-                <input class="btn" onclick="window.open('https://mg.mathhelpflashcards.shop')" type="button" value="MAD Games">
-                <input class="btn" onclick="window.open('https://g.mathhelpflashcards.shop')" type="button" value="Skibidi Sites">
-            </div>
-            <div>
-                <h1>Others</h1>
-                <div style="text-align: center;">
-                    <button class="btn" onclick="window.location.href='/others/game-recommendations'">Game Recommendations</button>
-                </div>
-                <h1>Links</h1>
-                <p>These will be updated frequently.</p>
-                <div style="text-align: center;">
-                    <a href="https://dsitesv5.madgames.store">Link 1</a>
-                    <a href="https://cftest.mathhelpflashcards.shop">Link 2</a>
-                    <a href="https://cftest2.mathhelpflashcards.shop">Link 3</a>
-                    <a href="https://dsitesv5.allmath.cloudns.ph">Link 4</a>
-                    <a href="https://v5.deions.org">Link 5</a>
-                    <a href="https://walkthedog.homeworkhelper.space">Link 6</a>
-                    <a href="https://skib.homeworkhelper.shop">Link 7</a>
-                </div>
-            </div>
-        </div>
-        <div class="gameButtons" id="gameButtons" style="display: none;">
-            <h1>Games</h1>
-            <div style="text-align: center;">
-                <input class="btn" onclick="window.location.href='/games/1v1lol'" type="button" value="1v1.LOL">
-                <input class="btn" onclick="window.location.href='/games/2048'" type="button" value="2048">
-                <input class="btn" onclick="window.location.href='/games/basketball-stars'" type="button" value="Basketball Stars">
-                <input class="btn" onclick="window.location.href='/games/bitlife'" type="button" value="BitLife">
-                <input class="btn" onclick="window.location.href='/games/blackjack'" type="button" value="Blackjack">
-                <input class="btn" onclick="window.location.href='/games/block-blast'" type="button" value="Block Blast">
-                <input class="btn" onclick="window.location.href='/games/cookie-clicker'" type="button" value="Cookie Clicker">
-                <input class="btn" onclick="window.location.href='/games/gladhoppers'" type="button" value="Gladhoppers">
-                <input class="btn" onclick="window.location.href='/games/google-snake'" type="button" value="Google Snake">
-                <input class="btn" onclick="window.location.href='/games/jetpack-joyride'" type="button" value="Jetpack Joyride">
-                <input class="btn" onclick="window.location.href='/games/minecraft'" type="button" value="Minecraft">
-                <input class="btn" onclick="window.location.href='/games/paper-io'" type="button" value="Paper.io">
-                <input class="btn" onclick="window.location.href='/games/retro-bowl'" type="button" value="Retro Bowl">
-                <input class="btn" onclick="window.location.href='/games/retrobowl-college'" type="button" value="Retro Bowl College">
-                <div>
-                    <input class="btn" onclick="window.location.href='/games/slope'" type="button" value="Slope">
-                    <input class="btn" onclick="window.location.href='/games/slots'" type="button" value="Slots">
-                    <input class="btn" onclick="window.location.href='/games/stickman-hook'" type="button" value="Stickman Hook">
-                    <input class="btn" onclick="window.location.href='/games/tu-46'" type="button" value="TU-46">
-                    <input class="btn" onclick="window.location.href='/games/tu-95'" type="button" value="TU-95">
-                    <input class="btn" onclick="window.location.href='/games/weddle'" type="button" value="Weddle">
-                    <input class="btn" onclick="window.location.href='/games/worldguessr'" type="button" value="WorldGuessr">
-                </div>
-            </div>
-        </div>
-        <div class="appButtons" id="appButtons" style="display: none;">
-            <h1>Apps</h1>
-            <div style="text-align: center;">
-                <input class="btn" onclick="window.location.href='/apps/chatgpt'" type="button" value="ChatGPT">
-                <input class="btn" onclick="window.location.href='/apps/deionsai'" type="button" value="Deion's AI">
-                <input class="btn" onclick="window.location.href='/apps/deionssearch/'" type="button" value="Deion's Search">
-                <input class="btn" onclick="window.location.href='/apps/discord'" type="button" value="Discord">
-                <input class="btn" onclick="window.location.href='/apps/google'" type="button" value="Google">
-                <input class="btn" onclick="window.location.href='/apps/szvy'" type="button" value="Szvy">
-                <input class="btn" onclick="window.location.href='/apps/tikt0k'" type="button" value="TikTok">
-            </div>
-        </div>
-        <div class="movieButtons" id="movieButtons" style="display: none;">
-            <h1>Movies</h1>
-            <div style="text-align: center;">
-                <input class="btn" onclick="window.location.href='/movies/netflix'" type="button" value="Netflix">
-                <input class="btn" onclick="window.location.href='/movies/rgshows'" type="button" value="RgShows">
-            </div>
-        </div>
-    </body>
-    <script src="script.js"></script>
-    <style>
-        div {
-            padding: 4px;
-        }
-    </style>
+   <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Deion's Search</title>
+      <!--<link rel="stylesheet" href="../../assets/styles/css/global.min.css">-->
+      <link rel="stylesheet" href="../active/bruhareuserious.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+      <link rel="stylesheet" href="index.css">
+      <link rel="icon" type="image/x-icon" href="Title.png">
+      
+      <link rel="shortcut icon" type="image/jpg" href="logo.png"/>
+      
+      <link rel="stylesheet" href="../assets/font-awesome/css/all.css">
+      <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+   </head>
+   <body>
+      
+      
+      <canvas id="canvas"></canvas>
+      <div id="header">
+         <img src="Title.png" alt="Logo" id="bigTitle">
+      </div>
+      <div id="content">
+         
+         <h1>Deion's Search</h1>
+         <p>Welcome to this search site! Credit to tf7software and TIW</p>
+
+         <form id="uv-form">
+            <input id="uv-search-engine" value="https://www.google.com/search?q=%s" type="hidden"/> 
+            <input id="uv-address" type="text" placeholder="Search Google or type an URL" class="form__input"/>
+          </form>
+           <div id="popularSites">
+                <img src="https://img.icons8.com/?size=100&id=12473&format=png&color=000000" alt="Xbox" onclick="autofill('http://xbox.com/play')">
+                <img src="https://img.icons8.com/?size=100&id=17904&format=png&color=000000" alt="Google" onclick="autofill('https://google.com')">
+                <img src="https://img.icons8.com/?size=100&id=84521&format=png&color=000000" alt="TikTok" onclick="autofill('https://tiktok.com')">
+                <img src="https://img.icons8.com/?size=100&id=435&format=png&color=000000" alt="Facebook Marketplace" onclick="autofill('https://www.facebook.com/marketplace')">
+               <img src="https://img.icons8.com/?size=100&id=FBO05Dys9QCg&format=png&color=000000" alt="ChatGPT" onclick="autofill('https://chatgpt.com')">
+               <img src="https://img.icons8.com/?size=100&id=74596&format=png&color=000000" alt="Fortnite" onclick="autofill('https://www.easyfun.gg/embed/fortnite-battle-royale-cloud-online.html')">
+               <img src="https://img.icons8.com/?size=100&id=iITbk3hJ4PXj&format=png&color=000000" alt="RGShows" onclick="autofill('https://rgshows.me')">
+               <img src="https://img.icons8.com/?size=100&id=59335&format=png&color=000000l" alt="Gladihoppers" onclick="autofill('https://gladihoppers.homeworkhelper.space')">
+            <p id="uv-error"></p>
+            <pre id="uv-error-code"></pre>
+          </div>
+          <div class="cloakbtn">
+               <button class="cloakbtnn" onclick="openCloak()">Cloak</button>
+          </div>
+      </div>
+      <script src="stars.js"></script>
+      
+      <script src="uv/uv.bundle.js" charset="UTF-8" defer></script>
+      <script src="uv/uv.config.js" charset="UTF-8" defer></script>
+      <script src="register-sw.js" charset="UTF-8" defer></script>
+      <script src="search.js" charset="UTF-8" defer></script>
+      <script src="index.js" charset="UTF-8" defer></script>
+      <script>
+         function openCloak() {
+            var win = window.open()
+            win.document.body.style.margin='0';
+            var url = '../active/'
+            var iframe = win.document.createElement('iframe')
+            iframe.style.height='100%';
+            iframe.style.width='100%';
+            iframe.style.border='none';
+            iframe.src = url
+            win.document.body.appendChild(iframe)
+         }
+      </script>
+      <style>
+         .cloakbtnn {
+            width: 110px;
+            height: 35px;
+            background-color: transparent;
+            color: white;
+            border: 1px solid;
+            border-radius: 15px;
+         }
+         .cloakbtnn:hover {
+            border-radius: 7px;
+            cursor: pointer;
+            background-color: rgba(216, 216, 216, 0.036);
+         }
+      </style>
+   </body>
 </html>
