@@ -22,7 +22,7 @@ p {
     background-color: rgba(213, 197, 197, 0);
     border: 1px solid;
     border-radius: 5px;
-    color: white;
+    color: inverted;
 }
 .btn:hover {
     border-radius: 2px;
@@ -92,4 +92,11 @@ div embed {
 div iframe {
     width: 875px;
     height: 550px;
+}
+
+embed {
+    border: none;
+}
+iframe {
+    border: none;
 }
