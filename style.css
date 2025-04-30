@@ -22,7 +22,7 @@ p {
     background-color: rgba(213, 197, 197, 0);
     border: 1px solid;
     border-radius: 5px;
-    color: inverted;
+    color: white;
 }
 .btn:hover {
     border-radius: 2px;
@@ -67,9 +67,9 @@ a {
     font-family: arial;
 }
 body {
-    background: radial-gradient(circle, rgb(255, 135, 14), rgba(0, 0, 0, 1));
-    color: black;
+    color: rgb(255, 255, 255);
     margin: 0;
+    background-image: url(jackson.png);
 }
 div {
     text-align: center;
